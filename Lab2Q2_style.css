@@ -1,0 +1,17 @@
+.navigation a {
+	padding: 20px 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.navigation a:hover {
+	color: MediumSeaGreen;
+}
+
+.intro {
+	background-image: url('img/FK4.png');
+}
+
+.program {
+	background-color: MediumSeaGreen;
+}
