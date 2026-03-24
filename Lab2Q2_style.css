@@ -1,17 +1,51 @@
-.navigation a {
-	padding: 20px 30px;
-	text-decoration: none;
-	color: black;
+body {
+	font-family: Arial;
 }
 
-.navigation a:hover {
-	color: MediumSeaGreen;
+h3 {
+	color: #a7c942;
+	text-align: center;
 }
 
-.intro {
-	background-image: url('img/FK4.png');
+table, td, th {
+	border-collapse: collapse;
+	border: 3px solid #90ba10;
+	margin: auto;
 }
 
-.program {
-	background-color: MediumSeaGreen;
+table th {
+	background-color: #eaf2d3;
+	text-align: left;
+}
+
+.row1a {
+	background-color: #a7c942;
+	color: white;
+	width: 800px;
+	height: 55px;
+	text-align: center;
+}
+
+.row1b {
+	background-color: #a7c942;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+
+img {
+	margin: 15px;
+	width: 200px;
+	height: 250px;
+}
+
+/*
+ul li{
+	list-style-image: url('img/snowListIcon.jpg');
+	list-style-type: square;
+}
+*/
+
+ul li::marker {
+	content: "❄️";
 }
